@@ -18,7 +18,7 @@
     "karma-junit-reporter": "^0.3.4"
   },
   "scripts": {
-    "postinstall": "node node_modules/bower/bin/bower install",
+    "postinstall": "node.exe node_modules/bower/bin/bower install",
     "prestart": "npm install",
     "start": "http-server -c-1 -o",
     "pretest": "npm install",
